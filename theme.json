@@ -1,0 +1,10 @@
+
+{
+    "text_entry": {
+        "font": "Arial",
+        "font_size": 60,
+        "normal_text_color": "#FFFFFF",
+        "selected_text_color": "#FFFF00",
+        "disabled_text_color": "#777777"
+    }
+}

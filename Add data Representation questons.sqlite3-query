@@ -1,0 +1,24 @@
+-- database: ./main.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+INSERT INTO `Questions` (`topic_id`, `subject_id`, `question_text`, `correct_answer`, `option_1`, `option_2`, `option_3`) VALUES
+(1, 1, "Howe most significant bit (MSB) in an 8-bit binary number?", "Bit 7", "Bit 1", "Bit 8", "Bit 0"),
+(1, 1, "Which of the following i many bits are needed to represent the decimal number 255 in binary?", "8", "7", "9", "10"),
+(1, 1, "Which binary value represents ths the correct range for an 8-bit signed integer using two's complement?", "-128 to 127", "0 to 255", "-256 to 255", "-127 to 128"),
+(1, 1, "What is the largest unsigned binary number that can be represented using 16 bits?", "65535", "32767", "65536", "16384"),
+(1, 1, "What is the primary purpose of a floating-point number?", "To represent fractional numbers", "To store negative numbers only", "To store extremely large integers", "To increase processing speed"),
+(1, 1, "In ASCII, what is the binary representation of the character 'A'?", "01000001", "01100001", "10000001", "00100001"),
+(1, 1, "How many unique characters can be represented in Unicode using 16 bits?", "65536", "32768", "16384", "128"),
+(1, 1, "What is the primary advantage of using lossy compression?", "Reduced file size", "Perfect data recovery", "Faster processing speed", "No data loss"),
+(1, 1, "Which compression method is used to ensure no data is lost?", "Lossless compression", "Lossy compression", "Symmetric compression", "Asymmetric compression"),
+(1, 1, "Which of the following is an example of lossless compression?", "PNG", "JPEG", "MP3", "MP4"),
+(1, 1, "What is the main disadvantage of lossless compression?", "File size reduction is limited", "It reduces quality", "It is not suitable for text files", "It requires specific hardware"),
+(1, 1, "Run-length encoding is most effective when compressing:", "Images with large areas of the same color", "Random data", "Text files", "Videos"),
+(1, 1, "Which error detection method uses an additional parity bit?", "Parity Check", "Checksum", "Cyclic Redundancy Check (CRC)", "Hamming Code"),
+(1, 1, "What is the primary purpose of a checksum?", "To verify data integrity", "To detect and correct errors", "To compress data", "To encrypt data"),
+(1, 1, "Which of the following would likely fail to detect an error in a transmitted message?", "A checksum with coincidental errors", "Odd parity check", "Even parity check", "Repeated cyclic redundancy checks"),
+(1, 1, "Which of the following factors affects the quality of a digital audio file?", "Resolution and sampling rate", "Frame rate and resolution", "Compression method and bit depth", "Sampling rate and compression method"),
+(1, 1, "What is the effect of increasing the bit depth in an image file?", "Increased file size and greater color range", "Smaller file size and reduced color range", "Greater color range but smaller file size", "No effect on file size or color range");
+
+

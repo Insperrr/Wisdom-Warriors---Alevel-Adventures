@@ -1,0 +1,10 @@
+-- database: ./main.db
+
+SELECT * FROM HighScore
+ORDER BY `high_score_id` ASC;
+
+
+ALTER TABLE HighScore
+ADD COLUMN topic_id INTEGER NOT NULL REFERENCES Topic(topic_id);
+
+DELETE FROM HighScore;
